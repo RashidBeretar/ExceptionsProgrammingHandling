@@ -35,8 +35,8 @@ public class HW1 {
     }
 
     static void MethodForError3() {
-        // int a = 1 + "3";
-        // System.out.println(a);
+        int a = 1 + "3";
+        System.out.println(a);
     }
 
     // Реализуйте метод, принимающий в качестве аргументов два целочисленных
