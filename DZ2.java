@@ -31,7 +31,6 @@ public class DZ2 {
     // пустую строку. Пользователю должно показаться сообщение, что пустые строки
     // вводить нельзя.
     public static void T2() {
-        // запуск генерации и обработка исключений
         try {
             System.out.println("Вы ввели: " + scannerStringNotEmpty());
         } catch (MyStringDataException e) {
